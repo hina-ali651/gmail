@@ -1,2 +1,0 @@
- https://modern-moderately-worm.ngrok-free.app -> http://localhost:8000
- ngrok command( ngrok http 8000 --domain=modern-moderately-worm.ngrok-free.app)
