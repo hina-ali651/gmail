@@ -18,7 +18,7 @@ CLIENT_ID = os.getenv("GOOGLE_CLIENT_ID")
 CLIENT_SECRET = os.getenv("GOOGLE_CLIENT_SECRET")
 REDIRECT_URI = os.getenv("GOOGLE_REDIRECT_URI")
 
-DB_FILE = "tokens.db"
+DB_FILE = ":memory:"
 
 # Database init
 def init_db():
